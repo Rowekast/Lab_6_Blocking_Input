@@ -34,6 +34,6 @@ public class HighorLow {
                 System.out.println(trash + " is not a valid number, please enter a valid number.");
             }
 
-        }while (!done)
+        }while (!done);
     }
 }
