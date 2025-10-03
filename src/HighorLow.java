@@ -5,12 +5,12 @@ public class HighorLow {
     static void main() {
 
         Scanner in = new Scanner(System.in);
-        Random rand = new Random(1-10);
+        int rand = new Random ().nextInt(10);
+
         int targetNum;
         int guessNum;
 
-        targetNum = rand.nextInt();
-
+        targetNum = rand + 1;
         boolean done = false;
         String trash = "";
 
